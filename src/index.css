@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.winning {
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+li button:visited {
+  font-weight: 700;
+}
+
+body {
+  background: url("https://play-lh.googleusercontent.com/dHiJS6AJ1X5dRrBdaqDouN-vKtU2ME68grbnNSRedO3J8_b-2vLhIKo-jDLYbLZlIg=w512")
+}
+
+li {
+  list-style: none;
+}
+
+.list-buttons {
+  background-color: purple;
+  color: cyan;
+}
+
+.list-buttons:hover {
+  background-color: cyan;
+  color: purple;
+}
+
+.winner {
+  background-color: black;
+  margin: auto;
+  color: white;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 35%;
+  margin-right: 35%;
+  font-size: 24px;
+}
+
+h1 {
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.6);
+  color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: cyan;
 }
